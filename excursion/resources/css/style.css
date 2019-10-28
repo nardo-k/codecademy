@@ -1,0 +1,45 @@
+body {
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-family: Verdana, sans-serif;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 50px;
+  color: white;
+}
+
+#download {
+  color: Aquamarine;
+  font-size: 16px;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 42px;
+}
+
+h3 {
+  font-size: 21px;
+  color: gray;
+}
+
+.app {
+  display: block;
+  -webkit-margin-before: 10px;
+  -webkit-margin-after: 10px;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  padding-top: 10px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.copyright {
+  text-align: right;
+  color: gray;
+}

@@ -1,0 +1,462 @@
+/* fonts */
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('PT Sans Bold'), local('PTSans-Bold'), url(https://fonts.gstatic.com/s/ptsans/v9/jizfRExUiTo99u79B_mh0O6tLR8a8zI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Sans'), local('PTSans-Regular'), url(https://fonts.gstatic.com/s/ptsans/v9/jizaRExUiTo99u79D0KExcOPIDU.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+html{
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(74, 74, 74);
+}
+
+/* body */
+
+body{
+  width: 100%;
+  background-color: rgb(243, 245, 245);
+}
+
+h1{
+  font-family: "PT Sans";
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+h2{
+  font-family: "PT Sans";
+  font-weight: 700;
+}
+
+h3{
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+p{
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 16px;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* menu section */
+.mobilenav{
+  display: none;
+}
+
+nav{
+  display: inline-flex;
+  height: 4rem;
+  background: white;
+  width: 100%;
+}
+
+nav .logosection{
+  display: flex;
+  align-items: center;
+  margin-left: 1.5rem;
+}
+
+.logosection img{
+  height: 3rem;
+  width: auto;
+}
+
+.leftsidelogo{
+  color: rgb(59, 93, 112);
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.rightsidelogo{
+  color: rgb(210, 210, 210);
+  font-size: 1.5rem;
+}
+
+nav .menusection{
+  display: flex;
+  align-items: center;
+  margin-right: 0.5rem;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+nav .menusection ul{
+  list-style-type: none;
+  display: flex;
+}
+
+nav .menusection ul li{
+  padding-right: 1rem
+}
+
+nav .menusection ul li a{
+  color: rgb(74, 74, 74);
+}
+
+/* content sections */
+
+.container{
+  display: flex;
+  width: 100%;
+}
+
+.leftsidecontainer{
+  width: 60%;
+  padding: 2rem 1.5rem;
+}
+
+.rightsidecontainer{
+  width: 40%;
+  padding-top: 1rem;
+}
+
+/* first container section */
+
+#firstcontainer{
+  background-color: rgb(199, 235, 255);
+}
+
+.leftsidecontainer img{
+  width: 100%;
+  height: auto;
+}
+
+.firstrightsidediv{
+  margin-left: 2rem;
+  padding: 30% 0% 30% 0%;
+}
+
+.firstrightsidediv h1{
+  margin: 7% 0% 7% 0%;
+}
+
+.firstrightsidediv h3{
+  margin: 7% 0% 7% 0%;
+}
+
+.firstrightsidediv .button{
+  margin: 7% 0% 7% 0%;
+}
+
+.button{
+  background-color: rgb(59, 93, 112);
+  color: white;
+  padding: 0.5rem;
+  width: 60%;
+  text-align: center;
+}
+
+.button a{
+  color: white;
+}
+
+/* second container section */
+#secondcontainer{
+  background-color: rgb(243, 245, 245);
+}
+
+.topics{
+  display: inline-flex;
+}
+
+.smallimagecontainer{
+  width: 35%;
+  height: auto;
+  margin: 1rem 1rem 1rem 1rem;
+}
+
+.smallimagecontainer img{
+  width: 100%;
+  height: auto;
+}
+
+.mobileimage{
+  display: none;
+}
+
+.smallcontentcontainer{
+  width: 65%;
+}
+
+#guestlecture{
+  background-color: rgb(199, 235, 255);
+}
+
+/* third container section*/
+
+#thirdcontainer{
+  background-color: rgb(234, 235, 236);
+  display: block;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.toptext{
+  display: flex;
+  justify-content: center;
+}
+
+.learntopiccontainers{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: left
+  padding: 2rem 4.5rem 2rem 4.5rem;
+}
+
+.learntopics{
+  width: 25%;
+  background-color: white;
+  margin: 1rem 1rem;
+  width: 25%;
+}
+
+.mediumconentcontainer{
+  padding-left: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+.mediumimagecontainer img{
+  width: 100%;
+  height: auto;
+}
+
+/* fourth container section*/
+
+#fourthcontainer{
+  background-color: rgb(243, 245, 245);
+  display: block;
+}
+
+.bottomcontainer{
+  display: flex;
+}
+
+#nomarginpadding{
+  padding-top: 0rem;
+}
+
+#nomarginpadding{
+  padding-top: 0rem;
+}
+
+/* footer container section*/
+
+footer{
+  display: inline-flex;
+  height: 5rem;
+  background-color: rgb(243, 245, 245);
+  width: 100%;
+  font-size: 0.75rem;
+  align-items: center;
+}
+
+footer span{
+  margin-left: 1.5rem;
+  flex-grow: 2;
+}
+
+.footernav ul{
+  list-style-type: none;
+  display: flex;
+}
+
+.footernav ul li{
+  padding-right: 1rem
+}
+
+.footernav ul li a{
+  color: rgb(74, 74, 74);
+}
+
+@media only screen and (max-width: 480px) {
+
+/* mobile header section */
+
+  .dekstopnav{
+    display: none;
+  }
+
+  .mobilenav{
+    display: flex;
+    height: 4rem;
+  }
+
+  .mobilenav .logosection{
+    margin-left: 0;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+/* first mobile container section */
+
+  .container{
+    display: block;
+    width: 100%;
+  }
+
+  .leftsidecontainer{
+    width: 100%;
+    padding: 0rem 0rem;
+  }
+
+  .leftsidecontainer img{
+    width: 100%;
+  }
+
+  .rightsidecontainer{
+    width: 100%;
+    margin: 0rem 0rem 0rem 0rem;
+    padding: 0rem 0rem 0rem 0rem;
+  }
+
+  .firstrightsidediv{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 2rem 0rem 2rem 0rem;
+  }
+
+  .firstrightsidediv h1{
+    margin: 0rem 0rem 2rem 0rem;
+    padding: 0rem 0rem 0rem 0rem;
+  }
+
+  .firstrightsidediv h3{
+    margin: 0rem 0rem 1.5rem 0rem;
+    padding: 0rem 0rem 0rem 0rem;
+  }
+
+  .firstrightsidediv .button{
+    margin: 0rem 0rem 0rem 0rem;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(59, 93, 112);
+  }
+
+/* second mobile container section */
+
+  #secondcontainer{
+    margin-bottom: 2rem;
+  }
+
+  #secondcontainer .leftsidecontainer{
+    display: none;
+  }
+
+  #secondcontainer .leftsidecontainer{
+    width: 100%;
+  }
+
+  .topics{
+    display: block;
+  }
+
+  .smallimagecontainer{
+    width: 90%;
+    padding: 1rem 5% 1rem 5%;
+    margin: 0rem 0rem 0rem 0rem;
+  }
+
+  .smallimagecontainer img{
+    width: 100%;
+    height: auto;
+  }
+
+  .desktopimage{
+    display: none;
+  }
+
+  .mobileimage{
+    display: block;
+  }
+
+  .smallcontentcontainer{
+    margin-left: 1rem;
+  }
+
+  #guestlecture{
+  background-color: rgb(243, 245, 245);
+  }
+
+/* third mobile container section */
+
+  #thirdcontainer{
+    background-color: rgb(243, 245, 245);
+    display: block;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .toptext{
+    display: flex;
+    justify-content: center;
+  }
+
+  .learntopiccontainers{
+    display: flex;
+    text-align: center;
+    padding: 0rem 0rem 0rem 0rem;
+  }
+
+  .learntopics{
+    width: 90%;
+    background-color: rgb(199, 235, 255);
+    margin: 0rem 0rem 0.5rem 0rem;
+  }
+
+  .mediumconentcontainer{
+    padding: 0rem 0rem 0rem 0rem;
+  }
+
+  .mediumimagecontainer img, p{
+    display: none;
+  }
+
+/* fourth mobile container section */
+
+  #fourthcontainer .rightsidecontainer{
+    display: none;
+  }
+
+  video{
+    margin-bottom: 1.5rem;
+  }
+
+  .test{
+    display: none;
+  }
+
+/* fourth mobile container section */
+
+  .footernav{
+    display: none;
+  }
+
+}

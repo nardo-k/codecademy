@@ -1,0 +1,225 @@
+html{
+  font-size: 18px;
+}
+
+body{
+  font-family: helvetica, sans-serif;
+  color: white;
+}
+
+.container{
+  width: 960px;
+  margin: 0px auto;
+}
+
+.topbar{
+  display: flex;
+  align-content: center;
+  background-color: black;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+}
+
+.topbar img{
+  height: 1.5rem;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+}
+
+.mainbanner{
+  background-image: url("../../resources/images/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+}
+
+.textarea{
+  background-color: black;
+  top: 9rem;
+  position: relative;
+  width: 20rem;
+  padding: 2rem 3rem;
+}
+
+.textarea h4{
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.textarea h1{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+nav{
+    background-color: firebrick;
+}
+
+.mobile-nav{
+  display: none;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem;
+}
+
+.productsection{
+  padding: 3rem 0rem 3rem 0rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.productbox{
+  display: flex;
+  flex-direction: column;
+  border: 0.22rem solid black;
+  width: 30%;
+}
+
+.productphoto{
+  display: flex;
+  justify-content: center;
+  height: 9rem;
+  margin: 2rem;
+}
+
+.productphoto img{
+  max-width: 9rem;
+  height: auto;
+}
+
+.productname{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  padding: 0.5rem;
+}
+
+.information{
+  display: flex;
+  justify-content: space-between;
+}
+
+.infobox{
+  width: 35%;
+}
+
+.infobox .description{
+  background-color: black;
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+.infobox .undertext{
+  color: black;
+  margin-bottom: 4rem;
+}
+
+footer{
+  height: 10rem;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 470px)
+{
+  body{
+    font-size: 16px;
+  }
+
+  nav ul{
+    display: none;
+  }
+
+  .mobile-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .productbox{
+    width: 47%;
+  }
+
+  #glasses{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 470px)
+{
+
+  .container{
+    width: 100%;
+    margin: 0px auto;
+  }
+
+  body{
+    font-size: 16px;
+  }
+
+  nav ul{
+    display: none;
+  }
+
+  .mainbanner{
+    height: 15rem;
+  }
+
+  .textarea{
+    top: 9rem;
+    padding-top: 1rem 2rem 1rem 2rem;
+  }
+
+  .textarea h4{
+    font-size: 0.70rem;
+    font-weight: bold;
+  }
+
+  .textarea h1{
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+
+  .mobile-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .productbox{
+    width: 90%;
+    margin: 0rem auto;
+  }
+
+  #glasses{
+    display: none;
+  }
+
+  #watch{
+    display: none;
+  }
+
+  .information{
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+  }
+
+  .infobox{
+    width: 90%;
+    margin: 0.5rem auto;
+  }
+
+  .infobox .undertext{
+    margin-top: 0.2rem;
+    margin-bottom: 0rem;
+  }
+
+  footer{
+    text-align: center;
+  }
+}
