@@ -101,16 +101,18 @@ img{
 }
 
 .image-container{
-  opacity: .7;
-  display: block;
   overflow: hidden;
-  border: 1px;
 }
 
-.image-container:hover{
+.imgage-container img{
+  opacity: .7;
+  display: block;
+}
+
+.image-container img:hover{
   opacity: 1;
   transition: opacity 1s, transform 1s;
-  /*transform: scale(1.3);*/
+  transform: scale(1.3);
   overflow: hidden;
 }
 
